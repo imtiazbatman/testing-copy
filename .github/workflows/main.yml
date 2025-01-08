@@ -1,0 +1,11 @@
+name: Testing the copy of repo
+on: workflow_run
+jobs:
+ testing:
+  runs-on: ubuntu-latest
+  steps:
+  - name: copying the code
+    uses: actions/checkout@v4
+  - name: checking the files 
+    
+  
