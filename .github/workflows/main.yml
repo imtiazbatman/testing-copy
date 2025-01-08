@@ -7,5 +7,6 @@ jobs:
   - name: copying the code
     uses: actions/checkout@v4
   - name: checking the files 
+    run: echo ls -ls
     
   
